@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import PostHeader from './PostHeader';
 import LikesSection from './LikesSection';
 import CommentSection from '../CommentSection/CommentSectionContainer';
-import './Post.css';
+import './Posts.css';
 import styled from 'styled-components';
 
 const PostBorder = styled.div`
