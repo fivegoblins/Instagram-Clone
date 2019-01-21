@@ -15,6 +15,7 @@ const PostThumbnailWrapper = styled.div`
 export const UserName = styled.div`
     font-weight: 500;
     padding: 0 5px;
+    margin-left: 25px;
 
     ${props =>
         props.bold &&
@@ -35,7 +36,7 @@ const PostHeader = props => {
                     src={props.thumbnailUrl}
                 />
             </PostThumbnailWrapper>
-            <UserName bold>{props.username}></UserName>
+            <UserName bold>{props.username}</UserName>
         </PostHeaderDiv>
     );
 }

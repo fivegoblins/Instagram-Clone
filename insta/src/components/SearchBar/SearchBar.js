@@ -6,6 +6,7 @@ import IGLogo from '../../assets/iglogo.png';
 
 const Header = styled.header`
     border-bottom: 1px solid #3333;
+    margin-bottom: 50px;
     height: 80px;
     line-height: 70px;
     display: flex;
@@ -37,6 +38,8 @@ const SearchInput = styled.input`
     width: 300px;
     height: 30px;
     text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 `;
 
 const IconsWrapper = styled.div`
