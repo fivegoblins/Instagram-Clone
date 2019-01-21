@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginPage from '../Login/Login';
+import Login from '../Login/Login';
 
 const Authenticate = App=>
     class extends React.Component {
@@ -20,7 +20,7 @@ const Authenticate = App=>
 
         render() {
             if (this.state.loggedIn) return <App />;
-            return <LoginPage />;
+            return <Login />;
         }
     };
 

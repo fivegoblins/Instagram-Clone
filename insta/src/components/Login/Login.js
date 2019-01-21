@@ -37,7 +37,22 @@ class Login extends Component {
                         onChange={this.handleInputChange}
                    /> 
                 </FormGroup>
+                <FormGroup>
+                    <Input 
+                        type='text'
+                        placeholder='password'
+                        name='password'
+                        value={this.state.password}
+                        onChange={this.handleInputChange}
+                    />
+                    <br/>
+                    <Button color='primary' size='large' onClick={this.handleLogin}>
+                        Log In
+                    </Button>
+                </FormGroup>
             </Form>
         );
     }
 }
+
+export default Login;
