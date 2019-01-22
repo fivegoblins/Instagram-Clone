@@ -28,7 +28,7 @@ class Login extends Component {
             <Form className='login-form'>
                 <img src={IGLogo} alt='Instagram logo' />
                 <h3>Log in to see photos and videos of your friends</h3>
-                <FormGroup>
+                <FormGroup className='form-group'>
                    <Input 
                         type='text'
                         placeholder='username'
@@ -37,7 +37,7 @@ class Login extends Component {
                         onChange={this.handleInputChange}
                    /> 
                 </FormGroup>
-                <FormGroup>
+                <FormGroup className='form-group'>
                     <Input 
                         type='text'
                         placeholder='password'
@@ -46,7 +46,7 @@ class Login extends Component {
                         onChange={this.handleInputChange}
                     />
                     <br/>
-                    <Button color='primary' size='large' onClick={this.handleLogin}>
+                    <Button className='form-button' color='primary' size='large' onClick={this.handleLogin}>
                         Log In
                     </Button>
                 </FormGroup>
