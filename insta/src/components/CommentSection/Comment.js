@@ -20,11 +20,11 @@ export const FlexWrapper = styled.div`
 const CommentParagraph = styled.p`
         font-weight: 400;
         padding: 0 5px;
+        text-align: left;
+        line-height: 1;
 
         @media (max-width: 500px) {
-            line-height: 1;
             font-size: 14px;
-            text-align: left;
         }
 `;
 
