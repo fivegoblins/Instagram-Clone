@@ -8,6 +8,11 @@ const PostWrapper = styled.div`
     width: 54%;
     min-width: 300px;
     margin: 5px auto;
+
+    @media (max-width: 500px) {
+        width: 98%;
+        margin-left: 2%;
+    }
 `;
 
 const PostsContainer = props => {

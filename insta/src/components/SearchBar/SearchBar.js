@@ -12,6 +12,15 @@ const Header = styled.header`
     display: flex;
     justify-content: space-between;
     background: #ffffff;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        border: none;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
 `;
 
 const LogoHeader = styled.div`
@@ -22,6 +31,10 @@ const LogoHeader = styled.div`
 const LogoImage = styled.img`
     height: 50%;
     padding: 0px 15px;
+
+    @media (max-width: 500px) {
+        height: 30px;
+    }
 `;
 
 const Divider = styled.span`
@@ -32,6 +45,11 @@ const InputWrapper = styled.div`
     width: 300px;
     margin: auto;
     display: flex;
+
+    @media (max-width: 500px) {
+        width: 40%;
+        margin-right: 53.5%;
+    }
 `;
 
 const SearchInput = styled.input`
@@ -40,11 +58,16 @@ const SearchInput = styled.input`
     text-align: center;
     border: 1px solid lightgray;
     border-radius: 5px;
+
 `;
 
 const IconsWrapper = styled.div`
     display: flex;
     width: 300px;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
 `;
 
 const SearchIcon = styled.i`
@@ -52,6 +75,10 @@ const SearchIcon = styled.i`
     display: inline;
     top: 33px;
     padding-left: 10px;
+
+    @media (max-width: 500px) {
+        top: 83px;
+    }
 `;
 
 const IconDiv = styled.div`
